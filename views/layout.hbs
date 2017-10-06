@@ -1,0 +1,38 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8" />
+	<title>Phaser Tower Defense</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel='stylesheet' href='/stylesheets/style.css'>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="/javascripts/phaser.js"></script>
+	<script type="text/javascript" src="/javascripts/Enemy.class.js"></script>
+	<script type="text/javascript" src="/javascripts/Tower.class.js"></script>
+	<script type="text/javascript" src='/javascripts/game.js'></script>
+</head>
+<body>
+	<audio preload autoplay>
+		<source src="/music/song.mp3" type="audio/mpeg">
+	</audio>
+	<div id="gameOverModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h1 class="modal-title">GAME OVER</h1>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        The Pandas haved razed your village! Better luck next time.
+	        <h1>High Score</h1>
+	        <h5 class='score'></h5>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</body>
+</html>

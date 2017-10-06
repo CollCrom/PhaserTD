@@ -1,0 +1,24 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	background-color:black;
+}
+
+body {
+	margin: 0;
+}
+
+canvas{
+	display: block;
+	margin: auto;
+}
+div {
+	text-align: center;
+}
+
+#gameOverModal {
+	display: none;
+	position: absolute;
+	z-index: 100;
+	margin: 0% 30%;
+}
